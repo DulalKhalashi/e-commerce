@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view point" content="width=device-width, inital scale=0">
+     <title>Amr Khelaghor</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <img src="images/logo.png" width="124px">
+            </div>
+            <nav>
+                <ul id="MenuIteam">
+                    <li> <a href="index.html"> Home</a></li>
+                    <li> <a href="products.html"> Product</a></li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li> <a href="account.html"> Account</a></li>
+                </ul>
+            </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+               <img src="images/menu.png" class="menu-icon"
+               onclick="menutoggle()">
+        </div>  
+    </div>
+    </div>
+
+
+
+
+       <div class="category">
+        <div class="small-container">
+
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <select > 
+                    <option >Defult shorting </option>
+                    <option >short by Name</option>
+                    <option >Short by Catagory </option>
+                    <option >short by price </option>
+                    <option >short by popularity </option>
+                   
+                </select>
+            </div>
+
+         <div class="row">
+             <div class="col-3">
+                 <img src="images/product-1.jpg" alt="">
+                 <h4> Red T-Shirt</h4>
+                   <div class="ratting">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                    <p>$50.00</p>
+                   </div>
+             </div>
+             <div class="col-3">
+                 <img src="images/product-2.jpg" alt="">
+                 <h4> Black shoose</h4>
+                   <div class="ratting">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                    <p>$50.00</p>
+                   </div>
+             </div>
+             <div class="col-3">
+                 <img src="images/product-3.jpg" alt="">
+                 <h4> Full Pant</h4>
+                   <div class="ratting">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                    <p>$50.00</p>
+                   </div>
+             </div>
+             <div class="col-3">
+                <img src="images/product-4.jpg" alt="">
+                <h4> Polo-Shirt</h4>
+                   <div class="ratting">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                    <p>$50.00</p>
+                   </div>
+            </div>
+         </div>
+
+                       <div class="page-btn">
+                           <span>1</span>
+                           <span>2</span>
+                           <span>3</span>
+                           <span>4</span>
+                           <span>&#8594;</span>
+                       </div>
+            
+        </div>
+        
+    </div>
+
+
+<!-------------footer------------>
+       <div class="footer">
+           <div class="container">
+               <div class="row">
+                   <div class="fcol-1">
+                       <h3>Download our Apps</h3>
+                       <p>Download our moblie apps for andrde and apple</p>
+                       <div class="applogo">
+                           <img src="images/play-store.png" >
+                           <img src="images/app-store.png" >
+                       </div>
+                   </div>
+                   <div class="fcol-2">
+                    <img src="images/logo-white.png" >
+                    <p>he dog is one of the two most ubiquitous and most popular domestic animals in the world</p>
+                </div>
+                <br>
+                <div class="fcol-3">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>block</li>
+                        <li>content</li>
+                    </ul>
+                </div>
+                <div class="fcol-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Fackbook</li>
+                        <li>Twiter</li>
+                        <li>You Tube</li>
+                    </ul>
+                </div>
+               </div>
+               <hr>
+               <p class="copyright">Copyright Message-This web sites developed by Dulal</p>
+           </div>
+       </div>
+              
+
+
+
+         <script>
+             var MenuIteam=document.getElementById("MenuIteam")
+             MenuIteam .style.maxHeight=" 0px";
+             function menutoggle()
+             if( MenuIteam .style.maxHeight==" 0px")
+             {
+             MenuIteam .style.maxHeight="100px";
+            }
+
+            else
+            {
+                MenuIteam .style.maxHeight="0px";
+            }
+         </script>
+</body>
+</html>
